@@ -1,0 +1,34 @@
+.Pokemongeneral{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around ;
+    padding-top: 50px;
+    background-color: antiquewhite;
+}
+
+.Generaldescrip{
+    height: 100px;
+    width: 40%;
+    font-size: 13px;
+    font-family: Pokemon-Classic;
+    color: red;
+}
+
+.Generalimage{
+    width: 50%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Pokemon;
+    src: url(../../public/ketchum/Ketchum.otf);
+}
+
+@font-face {
+    font-family: Pokemon-Classic;
+    src: url(../../public/Pokemon\ Classic.ttf);
+}
