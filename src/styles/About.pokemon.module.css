@@ -1,0 +1,16 @@
+.Aboutpokemon{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+    color: red;
+    font-family: Pokemon-Classic;
+}
+
+@font-face {
+    font-family: Pokemon-Classic;
+    src: url(../../public/Pokemon\ Classic.ttf);
+}

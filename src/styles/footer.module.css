@@ -1,0 +1,29 @@
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  }
+  
+  .copyrighttitle{
+    font-size: 35px;
+    color: #fff4e6;
+    font-family: Pokemon;
+  
+  }
+
+  @font-face {
+    font-family: Pokemon;
+    src: url(../../public/ketchum/Ketchum.otf);
+}
+  
+  .copyright{
+    font-size: 35px;
+    color: #fff4e6;
+    font-family: Pokemon;
+  
+    
+  }

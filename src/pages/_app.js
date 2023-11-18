@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
     </Menu.Item>
     <Menu.Item>
       <Input name='pokemonSearch' onChange={updateSearch} value={pokemonSearch} />
-      <Button as={Link} href={`/pokemon/${pokemonSearch}`}>Search</Button>
+      <Button as={Link} href={`/pokemon/${pokemonSearch}`} style={{backgroundColor:"red"}}>Search</Button>
     </Menu.Item>
     
 
